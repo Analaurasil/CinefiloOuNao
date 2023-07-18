@@ -1,0 +1,155 @@
+* {
+  margin: 0 auto;
+  padding: 0;
+}
+
+#menu {
+  list-style: none;
+  padding: 0;
+  background-color: black;
+  text-align: center;
+}
+
+#menu li {
+  display: inline-block;
+}
+
+#menu li a {
+  color: #757575;
+  padding: 20px;
+  text-decoration: none;
+  display: inline-block;
+}
+
+#menu li a:hover {
+  background-color: #f40612;
+}
+
+body {
+  font-family: sans-serif;
+  color: white;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+.main {
+  padding-top: 4rem;
+  height: 550px;
+  background: url("../Imagens/Gifs/fundo100.png") center;
+  align-items: baseline;
+  text-align: center;
+  display: block;
+  justify-content: center;
+}
+
+.main h1 {
+  font-size: 65px;
+  max-width: 100%;
+  display: block;
+  text-shadow: 2px 2px 4px #222;
+}
+
+.main h2 {
+  font-size: 30px;
+  max-width: 100%;
+  margin-top: 10px;
+  display: block;
+  text-shadow: 2px 2px 4px #222;
+}
+
+.section {
+  background: black;
+  padding: 65px;
+  border-top: 8px solid #222;
+  text-align: justify;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.info {
+  flex: 1;
+  padding: 50px;
+}
+
+.info h1 {
+  text-align: center;
+  font-size: 30px;
+}
+
+.info p {
+  font-size: 18px;
+}
+
+.img-tv {
+  flex: 1;
+  padding: 20px;
+}
+
+.img-tv img {
+  position: relative;
+  z-index: 1;
+  width: 185px;
+  height: 272px;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.footer .form-cta {
+  margin-top: 0;
+}
+
+.footer {
+  padding: 4rem 0 2rem 0;
+  border-top: 8px solid #222;
+  background: black;
+  text-align: center;
+  display: grid;
+  justify-items: center;
+}
+
+.footer p {
+  margin-top: 2rem;
+  color: #757575;
+  font-size: 13px;
+}
+
+/* Media Query para telas menores */
+@media only screen and (max-width: 768px) {
+  .section {
+    flex-direction: column;
+    padding: 30px;
+  }
+
+  .info {
+    padding: 0;
+    margin-bottom: 30px;
+  }
+
+  .img-tv {
+    padding: 0;
+  }
+
+  .main h1 {
+    font-size: 40px;
+  }
+
+  .main h2 {
+    font-size: 20px;
+  }
+
+  .section h1 {
+    font-size: 25px;
+  }
+
+  .info h1 {
+    font-size: 25px;
+  }
+
+  .info p {
+    font-size: 16px;
+  }
+}

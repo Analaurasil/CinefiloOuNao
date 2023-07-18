@@ -1,0 +1,138 @@
+* {
+  margin: 0 auto;
+  padding: 0;
+}
+
+#menu {
+  list-style: none;
+  padding: 0;
+  background-color: black;
+  text-align: center;
+}
+
+#menu li {
+  display: inline-block;
+}
+
+#menu li a {
+  color: #757575;
+  padding: 20px;
+  text-decoration: none;
+  display: inline-block;
+}
+
+#menu li a:hover {
+  background-color: #f40612;
+}
+
+body {
+  font-family: sans-serif;
+  color: white;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+.main {
+  padding-top: 4rem;
+  height: 600px;
+  background: url("../Imagens/Gifs/fundoHome.png") center;
+  align-items: baseline;
+  text-align: center;
+  display: block;
+  justify-content: center;
+  text-shadow: #222;
+}
+
+.main h1 {
+  font-size: 75px;
+  max-width: 100%;
+  display: block;
+  text-shadow: 2px 2px 4px #222;
+}
+
+.main h2 {
+  font-size: 40px;
+  max-width: 100%;
+  margin-top: 10px;
+  display: block;
+  text-shadow: 2px 2px 4px #222;
+}
+
+.main p {
+  font-size: 25px;
+  max-width: 60%;
+  display: block;
+  text-shadow: 2px 2px 4px #222;
+}
+
+.section {
+  background: black;
+  padding: 3rem 0;
+  border-top: 8px solid #222;
+}
+
+.section h1 {
+  text-align: center;
+  font-size: 45px;
+  margin-bottom: 16px;
+}
+
+.section p {
+  padding: 10px 65px;
+  font-size: 26px;
+}
+
+.img-tv {
+  position: relative;
+}
+
+.img-tv img {
+  position: relative;
+  z-index: 1;
+}
+
+.footer .form-cta {
+  margin-top: 0;
+}
+
+.footer {
+  padding: 4rem 0 2rem 0;
+  border-top: 8px solid #222;
+  background: black;
+  text-align: center;
+  display: grid;
+  justify-items: center;
+}
+
+.footer p {
+  margin-top: 2rem;
+  color: #757575;
+  font-size: 13px;
+}
+
+@media only screen and (max-width: 768px) {
+  .main h1 {
+    font-size: 50px;
+  }
+
+  .main h2 {
+    font-size: 30px;
+  }
+
+  .main p {
+    font-size: 20px;
+    max-width: 80%;
+  }
+
+  .section h1 {
+    font-size: 35px;
+  }
+
+  .section p {
+    padding: 10px 30px;
+    font-size: 20px;
+  }
+}
