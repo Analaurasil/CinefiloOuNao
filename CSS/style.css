@@ -8,6 +8,7 @@
   padding: 0;
   background-color: black;
   text-align: center;
+  text-decoration:dotted;
 }
 
 #menu li {
@@ -15,14 +16,14 @@
 }
 
 #menu li a {
-  color: #757575;
+  color: #ffffffe0;
   padding: 20px;
   text-decoration: none;
   display: inline-block;
 }
 
 #menu li a:hover {
-  background-color: #f40612;
+  background-color: #757575;
 }
 
 body {
@@ -43,14 +44,14 @@ img {
   text-align: center;
   display: block;
   justify-content: center;
-  text-shadow: #222;
+  text-shadow: #000000;
 }
 
 .main h1 {
   font-size: 75px;
   max-width: 100%;
   display: block;
-  text-shadow: 2px 2px 4px #222;
+  text-shadow: 2px 2px 4px ;
 }
 
 .main h2 {
@@ -58,14 +59,14 @@ img {
   max-width: 100%;
   margin-top: 10px;
   display: block;
-  text-shadow: 2px 2px 4px #222;
+  text-shadow: 2px 2px 4px #000000;
 }
 
 .main p {
   font-size: 25px;
   max-width: 60%;
   display: block;
-  text-shadow: 2px 2px 4px #222;
+  text-shadow: 2px 2px 4px #000000;
 }
 
 .section {
@@ -87,6 +88,8 @@ img {
 
 .img-tv {
   position: relative;
+  height:auto;
+  width: 200px;
 }
 
 .img-tv img {
