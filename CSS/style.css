@@ -51,7 +51,9 @@ img {
   font-size: 75px;
   max-width: 100%;
   display: block;
-  text-shadow: 2px 2px 4px ;
+  text-shadow: 8px 8px 10px #000000;
+  -webkit-text-stroke: 1px #000; 
+  text-stroke: 1px #000; 
 }
 
 .main h2 {
@@ -59,14 +61,18 @@ img {
   max-width: 100%;
   margin-top: 10px;
   display: block;
-  text-shadow: 2px 2px 4px #000000;
+  text-shadow: 8px 8px 10px #000000;
+  -webkit-text-stroke: 1px #000; 
+  text-stroke: 1px #000; 
 }
 
 .main p {
   font-size: 25px;
   max-width: 60%;
   display: block;
-  text-shadow: 2px 2px 4px #000000;
+  text-shadow: 8px 8px 10px #000000;
+  -webkit-text-stroke: 1px #000; 
+  text-stroke: 1px #000; 
 }
 
 .section {
